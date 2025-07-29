@@ -1,3 +1,4 @@
+
 #  Findle – AI-Powered Lost Person Finder
 
 **Findle** is a web-based platform that enables users to report and search for lost individuals using face recognition technology and real-time video scanning. Whether it's a missing loved one or someone lost in a public space, Findle helps bring people back together.
@@ -88,3 +89,7 @@ cd frontend
 npm install
 npm run dev
 ````
+=======
+# Findle
+Findle is a smart people-finding tool that helps identify and locate individuals using available data like name, phone number, email, or social links. It uses intelligent matching to provide accurate results for search or verification purposes.
+>>>>>>> 1076381 (Initial commit)
