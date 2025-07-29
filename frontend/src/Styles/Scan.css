@@ -1,0 +1,108 @@
+#scan-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #24272B;
+}
+
+#scan-container{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+}
+
+#scan-left{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-left: 5vw;
+    padding-right: 2vw;
+}
+#scan-left p{
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#scan-left h1{
+    font-size: 3rem;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 2vw;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+#scan-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#uploaded-image{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+#scan-btn{
+    width: 15vw;
+    height: 6vh;
+    background-color: #007EA7;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5vw;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#scan-btn:hover{
+    background-color: white;
+    color: #007EA7;
+}
+
+
+.scan-result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+}
+
+
+.scanning-line {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 255, 0, 0.2) 50%,
+    transparent 100%
+  );
+  animation: scanAnim 2s ease-in-out infinite;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@keyframes scanAnim {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}

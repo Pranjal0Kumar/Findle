@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#scan{
+    height: 100vh;
+    width: 100%;
+    background-color: #24272B;
+}
+
+#scan-main-container{
+    width: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5vw;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    padding-left: 2vw;
+    font-size: 3rem;
+}
+.highlight{
+    color: #007EA7;
+    font-family: 'Outfit', sans-serif;
+}
+
+#scan-inner-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#scan-home-btn{
+    width: 15vw;
+    height: 6vh;
+    background-color: #007EA7;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5vw;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#scan-image-container img{
+    height: 25vw;
+    width: 35vw;
+    border-radius: 20px;
+    margin: 2vw;
+}

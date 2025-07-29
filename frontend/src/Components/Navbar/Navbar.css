@@ -1,0 +1,29 @@
+
+nav{
+    display: flex;
+    padding: 1.5vw 2vh;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #1E2024;*/
+}
+
+nav #logo{
+    padding-left: 1vw;
+    font-size: 2.5rem;
+    color: #007EA7;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+nav #nav-opt{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+    font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
+}
