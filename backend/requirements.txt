@@ -1,0 +1,11 @@
+flask_socketio
+pymongo
+dotenv
+flask
+numpy
+cv2
+deepface
+smtplib
+PIL
+eventlet
+flask_cors
