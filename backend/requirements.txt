@@ -8,3 +8,5 @@ deepface
 Pillow
 eventlet
 flask-cors
+tensorflow>=2.20.0
+tf-keras
