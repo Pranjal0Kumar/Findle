@@ -1,11 +1,10 @@
-flask_socketio
+flask-socketio
 pymongo
-dotenv
+python-dotenv
 flask
-numpy
-cv2
+numpy>=2.0.0
+opencv-python
 deepface
-smtplib
-PIL
+Pillow
 eventlet
-flask_cors
+flask-cors
