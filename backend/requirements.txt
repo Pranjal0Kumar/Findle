@@ -1,3 +1,4 @@
+# Flask + Extensions
 flask==3.1.0
 flask-socketio==5.4.1
 flask-cors==5.0.0
@@ -5,12 +6,15 @@ pymongo==4.10.1
 python-dotenv==1.0.1
 eventlet==0.36.1
 
-numpy==2.1.1
+# Core scientific stack
+numpy==2.1.1          # compatible with Python 3.13
 opencv-python==4.10.0.84
 Pillow==10.4.0
 
+# DeepFace + RetinaFace
 deepface==0.0.93
 retina-face==0.0.17
 
-tensorflow==2.16.1
-tf-keras==2.16.0
+# TensorFlow stack (only version that has wheels for Python 3.13)
+tensorflow==2.20.0
+tf-keras==2.20.0
